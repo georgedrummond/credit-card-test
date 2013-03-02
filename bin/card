@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require './lib/credit_card'
+
+number = ARGV.join
+
+card = CreditCard.new number
+
+puts "#{card.card_issuer}: #{card.number} (#{card.valid?  ? 'valid' : 'invalid'})"
