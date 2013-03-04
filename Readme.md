@@ -13,7 +13,7 @@ To check the validity of a credit card please run ```bin/card 4111111111111111``
 To use the class directly do the following:
 
 ```ruby
-card = CredidCard.new '4111111111111111'
+card = CreditCard.new '4111111111111111'
 
 card.issuer?
 # => 'Visa'
